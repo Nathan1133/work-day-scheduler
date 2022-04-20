@@ -1,6 +1,6 @@
 # Work-Day-Scheduler
 
-##Description
+## Description
 
 An application designed to allow the user the ability to enter tasks/events for the business hours of 9am to 5pm for the current day.
 
