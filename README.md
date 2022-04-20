@@ -16,5 +16,11 @@ An application designed to allow the user the ability to enter tasks/events for 
 
 https://nathan1133.github.io/work-day-scheduler/ 
 
+## Contribution
+
+Author: Nathan Nitschke
+
+Code partially adapted from GitHub User: sylviaprabudy
+
 ## Screenshot
 ![image](https://user-images.githubusercontent.com/94014154/164296409-50e76b78-3cbf-4594-981d-490f93e0119d.png) 
