@@ -41,3 +41,35 @@ var loadTasks = function() {
 var saveTasks = function() {
   localStorage.setItem("tasks", JSON.stringify(tasks));
 }; 
+
+
+setInterval(checkTime(), (1000 * 60) * 5);
+
+
+// creating, loading and saving tasks persistently
+var events = {};
+
+var loadEvents = function() {
+  events = JSON.parse(localStorage.getItem("events"));
+
+  if (!events) {
+    events = {};
+  }
+
+  $(".saveBtn").click(function() {
+    var eventText = $(".textarea").val();
+
+    // events.push({
+    //     text: eventText,
+    // });
+
+    saveEvents();
+    });
+};
+
+var saveEvents = function() {
+    localStorage.setItem("events", JSON.stringify(events));
+};
+
+saveEvents();
+loadEvents();
